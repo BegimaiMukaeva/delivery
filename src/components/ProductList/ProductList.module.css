@@ -1,0 +1,41 @@
+.container {
+    width: 1200px;
+    margin: 80px auto;
+    font-family: Rubik;
+}
+
+.stocks__page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.stocks__pageTitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #414141;
+}
+.stocks__pageButton {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.stocks__pageButton button  {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    color: #606060;
+}
+.stocks__pageButton img {
+    width: 24px;
+    height: 24px;
+}
+.product__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}

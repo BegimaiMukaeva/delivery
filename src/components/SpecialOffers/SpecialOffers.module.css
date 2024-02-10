@@ -1,0 +1,43 @@
+.specialOffers {
+    width: 1200px;
+    margin: 120px auto;
+    font-family: Rubik;
+}
+.specialOffers__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 40px;
+    color: #414141;
+
+}
+.specialOffers__items {
+    display: flex;
+    justify-content: space-between;
+}
+.specialOffers__item {
+    cursor: pointer;
+    width: 584px;
+    height: 200px;
+    padding: 6px 30px;
+    border-radius: 4px;
+    background: #FCD5BA;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 16px 0px #CA936080;
+}
+.specialOffers__description {
+    margin-top: 20px;
+    width: 258px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #414141;
+}
+.specialOffers__button {
+    width: 258px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #414141;
+}

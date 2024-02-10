@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
+import Header from './components/Header/Header';
+import ProductList from './components/ProductList/ProductList';
+import SpecialOffers from './components/SpecialOffers/SpecialOffers';
+import StoresMap from './components/StoresMap/StoresMap';
+import Articles from './components/Articles/Articles';
+import Footer from './ui/Footer/Footer';
+import HomePage from "./components/HomePage/HomePage";
+import productImg from "./img/card/image.png";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const staticData = [
+    ];
+    return (
+        <div className={styles.container}>
+            <Header />
+            <main>
+                <HomePage />
+                <ProductList products={staticData} />
+                <SpecialOffers />
+                <StoresMap />
+                <Articles />
+            </main>
+            <footer>
+                <Footer />
+            </footer>
+        </div>
+    );
 }
 
 export default App;

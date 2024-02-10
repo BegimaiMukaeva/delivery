@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    margin: 0;
+}
+.bannerImg {
+    width: 100%;
+}
+.bannerHome {
+    width: 100%;
+    position: absolute;
+}
+.bannerImage {
+    position: relative;
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+}
+.bannerHomeImg {
+    position: relative;
+    bottom: -13px;
+}
+.bannerTitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #414141;
+}

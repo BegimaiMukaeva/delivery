@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.productCard {
+    width: 272px;
+    height: 349px;
+    border-radius: 4px;
+    font-family: Rubik;
+    box-shadow: 1px 2px 4px 0px #0000001A;
+    background: #FFFFFF;
+
+}
+.productCard__imageContainer {
+    height: 160px;
+    position: relative;
+}
+.productCard__image {
+    width: 272px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.productCard__discount {
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 118px;
+}
+.productCard__likeImg {
+    position: absolute;
+    left: 232px;
+    top: 8px;
+    z-index: 1;
+}
+.productCard__info {
+    padding: 8px;
+}
+.productCard__price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.productCard__originalPrice {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 122px;
+    color: #606060;
+}
+.productCard__pay {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.productCard__originalPay {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #BFBFBF;
+}
+.productCard__title, .productCard__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #414141;
+}
+.productCard__ratingImg {
+    margin: 8px 0;
+}
+.productCard__button {
+    width: 256px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #70C05B;
+    color: #70C05B;
+    gap: 8px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.productCard__button:hover {
+    width: 256px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #FF6633;
+    color: #FFFFFF;
+    gap: 8px;
+    background: #FF6633;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.productCard__button:active {
+    width: 256px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #FF6633;
+    color: #FFFFFF;
+    gap: 8px;
+    background: #FF6633;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
